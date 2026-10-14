@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#390305">
+  <meta name="description" content="Five10 Productions Corp. We make things happen.">
+  <title>Five10 Productions | We Make Things Happen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home" class="home-reference-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="site-header"></div>
+  <main id="main-content">
+    <section class="home-hero home-hero-reference" aria-labelledby="home-title">
+      <div class="container hero-copy hero-copy-reference">
+        <h1 id="home-title" class="reference-display-title hero-enter">
+          <span class="reference-title-line reference-title-line-one"><em>WE</em><span>MAKE</span></span>
+          <span class="reference-title-line reference-title-line-two">THINGS</span>
+          <span class="reference-title-line reference-title-line-three"><em>HAPPEN.</em></span>
+        </h1>
+        <div class="hero-actions reference-hero-actions hero-enter">
+          <a class="button reference-hero-button" href="project.html">See All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-gallery reveal" aria-label="Event photography slideshow">
+      <div class="home-gallery-frame">
+        <div class="swiper home-gallery-swiper">
+          <div class="swiper-wrapper" id="home-gallery-slides"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section-reference" aria-labelledby="featured-heading">
+      <h2 id="featured-heading" class="reference-section-heading reveal">FEATURED <em>PROJECTS</em></h2>
+      <div class="featured-carousel-reference reveal">
+        <button class="slider-button featured-prev" type="button" aria-label="Previous project">‹</button>
+        <div class="swiper featured-swiper" aria-label="Featured projects slideshow">
+          <div class="swiper-wrapper" id="featured-slides"></div>
+        </div>
+        <button class="slider-button featured-next" type="button" aria-label="Next project">›</button>
+      </div>
+    </section>
+
+    <section class="logo-section home-logo-section" aria-labelledby="clients-heading">
+      <h2 id="clients-heading" class="reference-section-heading reveal">WHO WE HAVE <em>WORKED WITH</em></h2>
+      <div class="logo-marquee reveal" aria-label="Client and partner logos">
+        <div class="logo-track" id="client-logo-track"></div>
+      </div>
+    </section>
+
+    <section class="contact-cta-reference" aria-labelledby="cta-heading">
+      <div class="contact-cta-reference-copy reveal">
+        <h2 id="cta-heading" class="reference-section-heading">LET’S MAKE THINGS <em>HAPPEN!</em></h2>
+        <p>Send us a message and our team will help<br class="desktop-only"> turn it into an experience people remember.</p>
+        <button class="reference-message-button" type="button" data-open-contact>Send message</button>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <div id="global-modal-root"></div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/site-data.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
