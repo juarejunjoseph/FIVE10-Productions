@@ -53,7 +53,7 @@
         ? project.id === 'power-mac-center'
           ? `<a class="featured-image-button featured-image-button-reference" href="powermac.html" aria-label="Open Power Mac Center projects"><img src="${imageSource}" alt="${imageAlt}" loading="lazy"></a>`
           : `<div class="featured-image-button featured-image-button-reference"><img src="${imageSource}" alt="${imageAlt}" loading="lazy"></div>`
-        : `<button class="featured-image-button featured-image-button-reference" type="button" data-open-project="${esc(project.id)}" aria-label="View ${esc(project.title)} project details"><img src="${imageSource}" alt="${imageAlt}" loading="lazy"></button>`;
+        : `<a class="featured-image-button featured-image-button-reference" href="project.html" aria-label="View all projects"><img src="${imageSource}" alt="${imageAlt}" loading="lazy"></a>`;
       const clientLogo = project.id === 'airasia-philippines'
         ? '<img class="projects-featured-caption__logo projects-featured-caption__logo--airasia" src="assets/images/AirAsia_logo_text 1.png" alt="AirAsia">'
         : '<img class="projects-featured-caption__logo projects-featured-caption__logo--pmc" src="assets/images/PMC logo transparent 1.png" alt="Power Mac Center">';
